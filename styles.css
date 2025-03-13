@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  border: 0;
+  overflow-y: scroll;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+a {
+
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.image {
+    background-image: url("img/about.jpg");
+}
+
+h1 {
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 , li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+
+.recipe {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #ddd;
+}
